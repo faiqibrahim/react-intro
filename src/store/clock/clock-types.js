@@ -1,0 +1,1 @@
+export const UPDATE_TIME = 'REDUCER_UPDATE_TIME';
