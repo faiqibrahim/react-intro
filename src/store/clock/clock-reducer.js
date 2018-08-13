@@ -8,7 +8,7 @@ const reducer = (oldState = initialState, action) => {
     let newState = {...oldState};
     switch (action.type) {
         case types.UPDATE_TIME :
-            newState.timeRedux = action.payload.newTime
+            newState.timeRedux = action.payload
     }
 
     return newState;
